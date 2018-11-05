@@ -16,7 +16,7 @@
    * ACTUAL THEME
    *
    */
-.da-layer, .da-members, .da-appMount .da-chat, .da-layers, .da-messagesWrapper, .da-title, .da-divider span, .search-results-wrap, .search-results-wrap > .search-header, .da-activityFeed, .da-activityFeed .da-headerBar, .da-container, .da-chat .da-content, .da-typing, .da-chat form, .search-results .channel-name, .search-result::before, .search-result::after, #friends, #friends .da-headerBar, .da-gameLibrary, .da-libraryHeader, .da-gameLibrary .da-stickyHeader, .da-sidebarRegion, .da-standardSidebarView, .da-contentRegion {
+.da-layer, .da-members, .da-appMount .da-chat, .da-layers, .da-messagesWrapper, .da-title, .da-divider span, .search-results-wrap, .search-results-wrap > .search-header, .da-activityFeed, .da-activityFeed .da-headerBar, .da-container, .da-chat .da-content, .da-channels .da-content, .da-typing, .da-chat form, .search-results .channel-name, .search-result::before, .search-result::after, #friends, #friends .da-headerBar, .da-gameLibrary, .da-libraryHeader, .da-gameLibrary .da-stickyHeader, .da-sidebarRegion, .da-standardSidebarView, .da-contentRegion {
   background: transparent !important; }
 
 .da-guildsWrapper {
