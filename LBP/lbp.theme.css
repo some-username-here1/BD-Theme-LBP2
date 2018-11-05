@@ -1,4 +1,6 @@
-/*//META{"name": "Little Big Planet", "description": "A Little Big Planet based theme. (v2 version exists already as well)", "author": "Mondanzo (Furry (Gay)#1815)", "version": "1.0.0", "source": "https://github.com/Mondanzo/BD/tree/master/LBP", "website": "https://bd.mondanzo.de/#lbp/" */
+/*//META{"name": "Little Big Planet", "description": "A Little Big Planet based theme. (v2 version exists already as well)", "author": "Mondanzo (Furry (Gay)#1815)", "version": "1.0.0", "source": "https://github.com/Mondanzo/BD/tree/master/LBP", "website": "https://bd.mondanzo.de/#lbp/"}*//* */
+
+@import url(https://rawcdn.githack.com/Mondanzo/BD/93ac290e59c670d53cf23dace92404ebfdf0fa1c/LBP/source.css);
 
 /*VARIABLES */
 :root {
@@ -7,5 +9,3 @@
 	--popitPrimary: #8526D3;
 	--popitSecondary: #bc26d3;
 }
-
-@import('https://raw.githubusercontent.com/Mondanzo/BD/master/LBP/source.css');
