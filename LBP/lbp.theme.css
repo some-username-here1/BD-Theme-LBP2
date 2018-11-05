@@ -1,0 +1,9 @@
+/*//META{"name": "Little Big Planet", "description": "A Little Big Planet based theme. (v2 version exists already as well)", "author": "Mondanzo (Furry (Gay)#1815)", "version": "1.0.0", "source": "https://github.com/Mondanzo/BD/tree/master/LBP", "website": "https://bd.mondanzo.de/#lbp/" */
+
+/*VARIABLES */
+:root {
+	--popitPrimaryTransparent: rgba(133, 38, 211, 0.4);
+	--popitSecondaryTransparent: rgba(188, 38, 211, 0.4);
+	--popitPrimary: #8526D3;
+	--popitSecondary: #bc26d3;
+}
