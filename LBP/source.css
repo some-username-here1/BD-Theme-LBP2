@@ -59,7 +59,7 @@ code.inline {
   visibility: hidden !important; }
 
 .da-app {
-  background-image: var(--background, url("https://i.imgur.com/Yr7IC27.jpg")) no-repeat cover; }
+  background-image: var(--background, url("https://i.imgur.com/Yr7IC27.jpg")); }
   .da-app:before {
     content: "";
     position: absolute;
