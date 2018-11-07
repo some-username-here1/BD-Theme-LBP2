@@ -16,7 +16,7 @@
    * ACTUAL THEME
    *
    */
-.da-layer, .da-members, .da-appMount .da-chat, .da-layers, .da-messagesWrapper, .da-title, .da-divider span, .search-results-wrap, .search-results-wrap > .search-header, .da-activityFeed, .da-activityFeed .da-headerBar, .da-container, .da-chat .da-content, .da-channels .da-content, .da-typing, .da-chat form, .search-results .channel-name, .search-result::before, .search-result::after, #friends, #friends .da-headerBar, .da-gameLibrary, .da-libraryHeader, .da-gameLibrary .da-stickyHeader, .da-sidebarRegion, .da-standardSidebarView, .da-contentRegion {
+.da-layer, .da-members, .da-appMount .da-chat, .da-layers, .da-messagesWrapper, .da-title, .da-divider span, .search-results-wrap, .search-results-wrap > .search-header, .da-activityFeed, .da-activityFeed .da-headerBar, .da-container, .da-chat .da-content, .da-channels .da-content, .da-typing, .da-chat form, .search-results .channel-name, .search-result::before, .search-result::after, #friends, #friends .da-headerBar, .da-gameLibrary, .da-libraryHeader, .da-gameLibrary .da-stickyHeader, .da-sidebarRegion, .da-standardSidebarView, .da-contentRegion, .applicationStore-1pNvnv, .applicationStore-1pNvnv .da-headerBar, .applicationStore-1pNvnv .home-2gmu2h .heroCarousel-k7LeGl .itemBackground-1jfD8p, .applicationStore-1pNvnv .home-2gmu2h .heroCarousel-k7LeGl .itemBackground-1jfD8p::before {
   background: transparent !important; }
 
 .da-guildsWrapper {
@@ -59,7 +59,7 @@ code.inline {
   visibility: hidden !important; }
 
 .da-app {
-  background-image: url("https://i.imgur.com/Yr7IC27.jpg"); }
+  background: var(--background, url("https://i.imgur.com/Yr7IC27.jpg")) no-repeat cover; }
   .da-app:before {
     content: "";
     position: absolute;
