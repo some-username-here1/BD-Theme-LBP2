@@ -1,6 +1,6 @@
-/*//META{"name": "Little Big Planet", "description": "A Little Big Planet based theme. (v2 version exists already as well)", "author": "Mondanzo (Furry (Gay)#1815)", "version": "1.0.1", "source": "https://github.com/Mondanzo/BD/tree/master/LBP", "website": "https://bd.mondanzo.de/#lbp"}*//* */
+/*//META{"name": "Little Big Planet", "description": "A Little Big Planet based theme. (v2 version exists already as well)", "author": "Mondanzo (Furry (Gay)#1815)", "version": "1.1.0", "source": "https://github.com/Mondanzo/BD/tree/master/LBP", "website": "https://bd.mondanzo.de/#lbp"}*//* */
 
-@import url(https://rawcdn.githack.com/Mondanzo/BD/26a61c8d36a9b92d05ed5b7bd3c3dc8afa82965c/LBP/source.css);
+@import url(https://rawcdn.githack.com/Mondanzo/BD/b184e14f64e431f907070774a99b36e64e3a41f3/LBP/source.css);
 
 /*VARIABLES */
 :root {
@@ -8,4 +8,5 @@
 	--popitSecondaryTransparent: rgba(188, 38, 211, 0.4);
 	--popitPrimary: #8526D3;
 	--popitSecondary: #bc26d3;
+	--background: url("https://i.imgur.com/Yr7IC27.jpg");
 }
