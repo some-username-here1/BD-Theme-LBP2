@@ -3,8 +3,8 @@
  * FONTS
  *
  */
-@font-face { font-family: "CoreBandiFace"; src: url("https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.eot?#iefix") format("embedded-opentype"), url("https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.woff") format("woff"), url("https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.ttf") format("truetype"); font-style: normal; font-weight: normal; }
-@font-face { font-family: "Popit"; src: url("https://lbp.me/css/fonts/popit-webfont.eot?#iefix") format("embedded-opentype"), url("https://lbp.me/css/fonts/popit-webfont.woff") format("woff"), url("https://lbp.me/css/fonts/popit-webfont.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "CoreBandiFace"; src: url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.eot?#iefix") format("embedded-opentype"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.woff") format("woff"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Popit"; src: url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/popit-webfont.eot?#iefix") format("embedded-opentype"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/popit-webfont.woff") format("woff"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/popit-webfont.ttf") format("truetype"); font-style: normal; font-weight: normal; }
   
   /*
    *
