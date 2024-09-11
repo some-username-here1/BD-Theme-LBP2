@@ -2,7 +2,7 @@
  * @name LittleBigPlanet 2
  * @author Cinna Cat Cwunch
  * @version 1.1.3
- * @description A Little Big Planet based theme. (A version for BDv2 exists already as well)
+ * @description A LittleBigPlanet 2 based theme. (A version for BDv2 exists already as well)
  * @source https://github.com/some-username-here1/BD-Theme-LBP2
  * @website https://www.celestialcwunch.xyz/
  * @invite 
@@ -18,13 +18,24 @@
   --popitSecondaryTransparent: rgba(188, 38, 211, 0.4);
   --popitPrimary: #8526D3;
   --popitSecondary: #bc26d3;
-  --background: url("https://i.imgur.com/Yr7IC27.jpeg");
+  --background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background.jpg");
+  --main-font: CoreBandiFace;
+  --code-font: popit-webfont;
 }
 
 
 /* FONTS */
-@font-face { font-family: "CoreBandiFace"; src: url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.eot?#iefix") format("embedded-opentype"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.woff") format("woff"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/CoreBandiFace/CoreBandiFace.ttf") format("truetype"); font-style: normal; font-weight: normal; }
-@font-face { font-family: "Popit"; src: url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/popit-webfont.eot?#iefix") format("embedded-opentype"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/popit-webfont.woff") format("woff"), url("https://web.archive.org/web/20200319004639/https://lbp.me/css/fonts/popit-webfont.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+	font-family: "CoreBandiFace"; src: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/CoreBandiFace.eot") format("embedded-opentype"),
+	url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/CoreBandiFace.woff") format("woff"),
+	url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/CoreBandiFace.ttf") format("truetype"); font-style: normal; font-weight: normal;
+}
+@font-face {
+	font-family: "Popit";
+	src: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/popit-webfont.eot") format("embedded-opentype"), url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/popit-webfont.woff") format("woff"), url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/popit-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
   
 /* THEME */
 .da-layer, .da-members, .da-appMount .da-chat, .da-layers, .da-messagesWrapper, .da-title, .da-divider span, .search-results-wrap, .search-results-wrap > .search-header, .da-activityFeed, .da-activityFeed .da-headerBar, .da-container, .da-chat .da-content, .da-channels .da-content, .da-typing, .da-chat form, .search-results .channel-name, .search-result::before, .search-result::after, #friends, #friends .da-headerBar, .da-gameLibrary, .da-libraryHeader, .da-gameLibrary .da-stickyHeader, .da-sidebarRegion, .da-standardSidebarView, .da-contentRegion, .applicationStore-1pNvnv, .applicationStore-1pNvnv .da-headerBar, .applicationStore-1pNvnv .home-2gmu2h .heroCarousel-k7LeGl .itemBackground-1jfD8p, .applicationStore-1pNvnv .home-2gmu2h .heroCarousel-k7LeGl .itemBackground-1jfD8p::before {
@@ -70,7 +81,7 @@ code.inline {
   visibility: hidden !important; }
 
 .da-app {
-  background-image: var(--background, url("https://i.imgur.com/Yr7IC27.jpg")); }
+  background-image: var(--background, url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background.jpg"); }
   .da-app:before {
     content: "";
     position: absolute;
@@ -125,7 +136,7 @@ code.inline {
   .da-activityFeed .da-card .da-partyMemberEmpty {
     color: #fff;
     background-color: #000;
-    background-image: url("https://i.imgur.com/ESGFcnt.png");
+    background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background2.png");
     background-position: 50%;
     background-repeat: no-repeat; }
 
@@ -164,7 +175,7 @@ code.inline {
   color: #fff;
   z-index: 5;
   content: " ";
-  background-image: url("https://i.imgur.com/1VQRXwg.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   width: 522px;
   height: 100%; }
 
@@ -193,7 +204,7 @@ code.inline {
   position: absolute;
   border: none !important;
   border-radius: 0 !important;
-  background-image: url("https://i.imgur.com/1VQRXwg.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   width: 18px;
   height: 18px;
   bottom: -15px;
@@ -279,7 +290,7 @@ code.inline {
       width: 50px;
       height: 50px;
       float: left;
-      background-image: url("https://i.imgur.com/nq8j4FD.png"); }
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png"); }
   .da-guilds .da-guild .da-guildInner {
     border-radius: 25px !important; }
     .da-guilds .da-guild .da-guildInner:hover {
@@ -292,7 +303,7 @@ code.inline {
   content: "";
   width: 50px;
   height: 50px;
-  background-image: url("https://i.imgur.com/xD6hZmQ.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/guild.png");
   background-position: 50%;
   background-color: transparent;
   background-size: 50px;
@@ -351,7 +362,7 @@ svg[name="Speaker"] {
     visibility: hidden !important; }
 
 svg[name="Mention"] {
-  background-image: url("https://i.imgur.com/1VQRXwg.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   background-repeat: no-repeat;
   background-position: -467px 0;
   width: 19px;
@@ -360,13 +371,13 @@ svg[name="Mention"] {
     visibility: hidden; }
 
 svg[name="QuestionMark"] {
-  background-image: url("https://i.imgur.com/ESGFcnt.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background2.png");
   background-repeat: no-repeat; }
   svg[name="QuestionMark"] > g {
     visibility: hidden; }
 
 svg[name="People"] {
-  background-image: url("https://i.imgur.com/1VQRXwg.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   background-repeat: no-repeat;
   background-position: -151px -1px;
   width: 22px;
@@ -375,7 +386,7 @@ svg[name="People"] {
     visibility: hidden; }
 
 svg[name="NotificationBell"], svg[name="NotificationBellOff"] {
-  background-image: url("https://i.imgur.com/1VQRXwg.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   background-repeat: no-repeat;
   background-position: -128px 0;
   width: 23px;
@@ -387,12 +398,12 @@ svg[name="NotificationBellOff"] {
   filter: invert(75%); }
 
 svg[name="Discord"] {
-  background-image: url("https://i.imgur.com/EcIn0p0.png"); }
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon.png"); }
   svg[name="Discord"] g {
     display: none; }
 
 svg[name="Pin"] {
-  background-image: url("https://i.imgur.com/1VQRXwg.png");
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   background-repeat: no-repeat;
   background-position: -375px -2px;
   width: 20px;
@@ -417,7 +428,7 @@ svg[name="Pin"] {
   height: 20px; }
 
 .icon-search-bar-eye-glass {
-  background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
   background-position: -268px -2px;
   width: 20px;
   height: 20px; }
@@ -442,7 +453,7 @@ svg[name="Pin"] {
   .da-userPopout .da-note textarea:focus, .da-recentMentionsPopout .da-note textarea:focus, .da-messagesPopoutWrap .da-note textarea:focus, .da-popouts .da-note textarea:focus {
     background: rgba(0, 0, 0, 0.4); }
   .da-userPopout .da-emptyPlaceholder.da-bottom .da-image, .da-recentMentionsPopout .da-emptyPlaceholder.da-bottom .da-image, .da-messagesPopoutWrap .da-emptyPlaceholder.da-bottom .da-image, .da-popouts .da-emptyPlaceholder.da-bottom .da-image {
-    background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+    background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
     background-position: 0 -85px;
     width: 47px;
     height: 57px; }
@@ -459,7 +470,7 @@ svg[name="Pin"] {
   border-bottom: solid 3px var(--popitPrimary, #8526D3); }
 
 .da-autocomplete {
-  background: url("https://i.imgur.com/LDkVbG2.png"); }
+  background: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background2.png"); }
   .da-autocomplete .da-contentTitle {
     color: #fff; }
   .da-autocomplete .da-selectorSelected {
@@ -527,7 +538,7 @@ svg[name="Pin"] {
   			height: 128px;
   			float: left;
   			pointer-events: none;
-  			background-image: url('https://i.imgur.com/nq8j4FD.png');
+  			background-image: url('https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png');
   		}
   }*/ }
 
@@ -569,7 +580,7 @@ textarea:focus {
   width: 50px;
   height: 50px;
   float: left;
-  background-image: url("https://i.imgur.com/nq8j4FD.png"); }
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png"); }
 
 .da-dms .da-guildInner .da-small {
   border: initial; }
@@ -639,50 +650,50 @@ textarea:focus {
     .da-popouts .da-popout .da-menu .da-separator {
       background: rgba(0, 0, 0, 0.3); }
     .da-popouts .da-popout .da-menu .da-item.da-invite .da-icon {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -33px -2px;
       width: 28px;
       height: 21px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/6a711bd91522e885413464a88a4e3c69.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -129px -1px;
       width: 21px;
       height: 21px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/6afcd5d6a8c9d467e27e1bb48755dce0.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -1px 0;
       width: 32px;
       height: 23px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/bc11a9099f5729962c095cb49d5042f6.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -312px -2px;
       width: 17px;
       height: 20px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/52bc30f8a2b1a51f808a785819ca00b5.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -288px 0;
       width: 23px;
       height: 23px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/2fc862597335421b35a79aa9aaba4a86.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -199px -1px;
       width: 21px;
       height: 21px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/858df73648ac3877a22156da2e69a5fd.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -413px -155px;
       transition: filter 200ms linear;
       width: 21px;
       height: 21px; }
     .da-popouts .da-popout .da-menu .da-item .da-icon[style='background-image: url("/assets/50f8ef2cdb4e7697a4202fb9c6d0e1fc.svg");'] {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -413px -155px;
       filter: grayscale(100%);
       transition: filter 200ms linear;
       width: 21px;
       height: 21px; }
     .da-popouts .da-popout .da-menu .da-item.da-leave .da-icon {
-      background-image: url("https://i.imgur.com/1VQRXwg.png") !important;
+      background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png") !important;
       background-position: -244px 0;
       width: 22px;
       height: 23px; }
@@ -693,7 +704,7 @@ textarea:focus {
 .bd-sidebarRegion,
 .bd-contentRegion,
 .bd-scroller {
-  background-image: url("https://i.imgur.com/LDkVbG2.png") !important; }
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background2.png") !important; }
   .bd-sidebarRegion .bd-cardDescription,
   .bd-sidebarRegion .bd-settingswrapItemDesc,
   .bd-sidebarRegion .bd-hint,
@@ -723,7 +734,7 @@ textarea:focus {
   .bd-scroller .bd-settingsX .bd-materialDesignIcon {
     width: 25px;
     height: 25px;
-    background-image: url("https://i.imgur.com/1VQRXwg.png");
+    background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
     background-position: 113px 0px; }
     .bd-sidebarRegion .bd-settingsX .bd-materialDesignIcon svg,
     .bd-contentRegion .bd-settingsX .bd-materialDesignIcon svg,
@@ -747,7 +758,7 @@ textarea:focus {
 
 .bd-modalInner {
   background-color: rgba(0, 0, 0, 0.1);
-  background-image: url("https://i.imgur.com/LDkVbG2.png") !important;
+  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background2.png") !important;
   transform: rotateZ(1deg); }
   .bd-modalInner .bd-footerAlert {
     background: linear-gradient(to right, var(--popitPrimary, #8526D3), var(--popitSecondary, #bc26d3)); }
