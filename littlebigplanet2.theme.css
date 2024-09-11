@@ -14,27 +14,19 @@
 
 /*VARIABLES */
 :root {
+  /* GENERAL */
+  --main-font: CoreBandiFace;
+  --code-font: CoreBandiFace;
+  --font-size: 16px;
+  --avatar-roundness: 0%;
+
+  --background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background.jpg");
+  --home-icon: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon.png"); }
+
   --popitPrimaryTransparent: rgba(133, 38, 211, 0.4);
   --popitSecondaryTransparent: rgba(188, 38, 211, 0.4);
   --popitPrimary: #8526D3;
   --popitSecondary: #bc26d3;
-  --background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/background.jpg");
-  --main-font: CoreBandiFace;
-  --code-font: popit-webfont;
-}
-
-
-/* FONTS */
-@font-face {
-	font-family: "CoreBandiFace"; src: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/CoreBandiFace.eot") format("embedded-opentype"),
-	url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/CoreBandiFace.woff") format("woff"),
-	url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/CoreBandiFace.ttf") format("truetype"); font-style: normal; font-weight: normal;
-}
-@font-face {
-	font-family: "Popit";
-	src: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/popit-webfont.eot") format("embedded-opentype"), url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/popit-webfont.woff") format("woff"), url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/fonts/popit-webfont.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
 }
   
 /* THEME */
@@ -96,7 +88,7 @@ code.inline {
 
 .da-activityFeed .da-carousel {
   background: transparent; }
-  .da-activityFeed .da-carousel .da-article {	
+  .da-activityFeed .da-carousel .da-article { 
     border: solid #000 5px;
     border-radius: 27px 20px 30px;
     background: linear-gradient(to top, var(--popitPrimary, #8526D3), var(--popitSecondary, #bc26d3));
@@ -397,11 +389,6 @@ svg[name="NotificationBell"], svg[name="NotificationBellOff"] {
 svg[name="NotificationBellOff"] {
   filter: invert(75%); }
 
-svg[name="Discord"] {
-  background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon.png"); }
-  svg[name="Discord"] g {
-    display: none; }
-
 svg[name="Pin"] {
   background-image: url("https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/icon_table.png");
   background-repeat: no-repeat;
@@ -511,36 +498,43 @@ svg[name="Pin"] {
     border-color: #191919; }
 
 .guild-form {
-  /*.avatar-uploader-inner {
-  	background-image: $lbpLevelLink;
-  	background-color: inherit;
-  	border: none;
-  	transform: rotateZ(5deg);
-  	filter: grayscale(0.8);
-  	transition: transform 250ms linear, filter 200ms linear;
-  	overflow: visible;
-  	&:hover {
-  		transform: scale(1.05) rotateZ(0deg);
-  		filter: grayscale(0);
-  		box-shadow: none;
-  	}
-  	.avatar-uploader-hint {
-  		transform: rotateZ(1deg);
-  	}
-  		&:after {
-  			content: " ";
-  			position: absolute;
-  			top: 0;
-  			left: 0;
-  			background-size: 149.5px;
-  			background-position: 50%;
-  			width: 128px;
-  			height: 128px;
-  			float: left;
-  			pointer-events: none;
-  			background-image: url('https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png');
-  		}
-  }*/ }
+  .avatar-uploader-inner {
+    background-image: url('https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png');
+    background-color: inherit;
+    border: none;
+    transform: rotateZ(5deg);
+    filter: grayscale(0.8);
+    transition: transform 250ms linear, filter 200ms linear;
+    overflow: visible;
+    &:hover {
+      transform: scale(1.05) rotateZ(0deg);
+      filter: grayscale(0);
+      box-shadow: none;
+    }
+    .avatar-uploader-hint {
+      transform: rotateZ(1deg);
+    }
+      &:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: 149.5px;
+        background-position: 50%;
+        width: 128px;
+        height: 128px;
+        float: left;
+        pointer-events: none;
+        background-image: url(https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png);
+      }
+  }
+}
+
+.circleIconButton_db6521 {
+  background: url(https://raw.githubusercontent.com/some-username-here1/BD-Theme-LBP2/master/images/server.png);
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease-in-out;
+}
 
 .da-contextMenu {
   background: linear-gradient(to top, var(--popitPrimary, #8526D3), var(--popitSecondary, #bc26d3)) !important;
@@ -770,9 +764,9 @@ textarea:focus {
 .da-noChannel {
   background-color: transparent !important; }
 
-.bd-sidebar .bd-item.bd-active, .bd-sidebar .bd-button {
+.sidebar_c25c6d .bd-item.bd-active, .sidebar_c25c6d .bd-button {
   background: linear-gradient(to left, var(--popitPrimary, #8526D3), var(--popitSecondary, #bc26d3)); }
-.bd-sidebar .bd-item:hover {
+.sidebar_c25c6d .bd-item:hover {
   background: linear-gradient(to left, #951ea8, #6a1ea8); }
 
 .da-bubble {
@@ -804,24 +798,5 @@ textarea:focus {
   background: transparent !important;
   padding: 20px;
   border-top: dashed #fff 1px; }
-
-.da-markup,
-.da-textArea,
-.da-activityText,
-.da-body,
-.da-activity,
-.da-quickMessage {
-  text-transform: initial;
-  font-family: "CoreBandiFace" !important; }
-
-.da-username,
-span.username,
-.da-headerName,
-.da-friendsOnline,
-.bd-isVoiceChannel,
-.bd-isGuildChannel,
-.da-channels .da-containerDefault {
-  text-transform: uppercase;
-  font-family: "CoreBandiFace" !important; }
 
 /*# sourceMappingURL=lbp.theme.css.map */
